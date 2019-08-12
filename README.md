@@ -18,6 +18,7 @@ Use this instead of your default terminal.
 ###### Some basic terminal commands
 
 1. cd (change directory)
+	
 	Example: ```cd ~``` (change directory home)
 	Example: ``` cd ..``` (change directory parent)
 2. ls
