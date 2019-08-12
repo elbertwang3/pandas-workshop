@@ -26,6 +26,7 @@ Use this instead of your default terminal.
 	Example: ``` cd ..``` (change directory parent)
 
 2. ls (list)
+
 	How it works: ```ls```
 
 	Example: ```ls -a``` (list hidden files and directories, prefixed with .)
@@ -69,11 +70,17 @@ Run ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew
 
 #### Git and Github
 
-Install git using ```brew install git```
+Run ```brew install git```
 
 Check that it's installed using ```git --version```
 
 Then make an account on ```github.com``` if you don't already have one.
+
+##### Setting up Github ssh keys
+
+You want to set up an ssh key so you don't have to type in your username and password when you use it.
+
+https://help.github.com/en/articles/connecting-to-github-with-ssh
 
 #### Zsh
 First check if you have Zsh installed. 
@@ -97,13 +104,9 @@ Install Oh My Zsh
 
 Sublime is a text editor, where you can write your code. Download it from here: https://www.sublimetext.com/3.
 
-Launching Sublime from the command line
+Run ```ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime``` to launch Sublime from the command line
 
-```ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime```
-
-Then try:
-
-```sublime helloworld```
+Try ```sublime helloworld```. It should open up sublime with your empty file. You can also open an entire directory using this command.
 
 
 ###### Some basic git commands
@@ -123,5 +126,9 @@ Then try:
 [Python Wrangler](http://littlecolumns.com/tools/python-wrangler/) might help you if you have previous versions of Python installed and clean them up.
 
 Please use this Python installation [guide](https://docs.google.com/document/d/1cYmpfZEZ8r-09Q6Go917cKVcQk_d0P61gm0q8DAdIdg/edit)
+
+## Some other helpful resources
+
+[How to set up your mac like an interactive news developer](https://open.nytimes.com/set-up-your-mac-like-an-interactive-news-developer-bb8d2c4097e5)
 
 
