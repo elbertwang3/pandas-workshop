@@ -127,6 +127,19 @@ Try ```sublime helloworld```. It should open up sublime with your empty file. Yo
 
 Please use this Python installation [guide](https://docs.google.com/document/d/1cYmpfZEZ8r-09Q6Go917cKVcQk_d0P61gm0q8DAdIdg/edit)
 
+#### Python Part 1
+Download this [notebook](https://github.com/lamthuyvo/python-data-nicar2019/blob/master/python1/Python%20intro.ipynb)
+
+Create a directory called ```python-part1```
+
+```cd``` into the directory
+
+Run ```pipenv shell```
+
+```pipenv install jupyter```
+
+```jupyter notebook```
+
 ## Some other helpful resources
 
 [How to set up your mac like an interactive news developer](https://open.nytimes.com/set-up-your-mac-like-an-interactive-news-developer-bb8d2c4097e5)
