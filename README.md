@@ -140,8 +140,23 @@ Run ```pipenv shell```
 
 ```jupyter notebook```
 
+#### Python Part 2: Intro to Pandas
+Download this [notebook](https://github.com/lamthuyvo/python-data-nicar2019/blob/master/python2/notebooks/introduction-to-pandas.ipynb)
+
+#### Python Part 3: Cleaning and visualizing
+Download this [notebook](https://github.com/kcecireyes/nicar-2018-python/blob/master/nicar_python_3.ipynb)
+
+#### Scraping in Python
+Clone this [repo](https://github.com/ryanpitts/python-scraping-primer)
+
+#### 2-day Python Workshop
+Clone this [repo](https://github.com/ireapps/pycar)
+
+
 ## Some other helpful resources
 
 [How to set up your mac like an interactive news developer](https://open.nytimes.com/set-up-your-mac-like-an-interactive-news-developer-bb8d2c4097e5)
+
+More Python and general data/graphics tutorials in this [repo](https://github.com/ireapps)
 
 
